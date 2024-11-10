@@ -13,3 +13,24 @@ print(2+4j) #Complex variable
 
 a = True
 print(a)
+
+fruit = "apple", "banana", "orange"
+# it's like a destructure way
+apple, banana, orange = fruit
+print(apple)
+print(orange)
+
+# Global variable
+name = "Anugraha Tamang"
+def myfun():
+    print(f"My name is {name}")
+
+myfun()
+print(name)
+
+# Local scope variable
+def myfun():
+    name = "Ramit Tamang"
+    print(f"My name is {name}")
+myfun()
+print(name) #Anugraha Tamang
