@@ -1,1 +1,9 @@
 # -Python Summary
+1. What is the Python?
+ ->Python is Popular Programming language which is developed by Guido Van Rossum in 1991. It's used for 
+  - web development
+  -server application
+  -complex mathematics calculation
+  -data science
+  -Artificial Inteligence
+  
