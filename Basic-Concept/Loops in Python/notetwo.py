@@ -7,6 +7,7 @@ print(one.__next__()) #output: 2
 print(one.__next__()) #output: 3
 print(one.__next__()) #output: 4
 print(one.__next__()) #output: 5
-print(one.__next__())
+print(one.__next__()) #stopIteration
+
 
 
