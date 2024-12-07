@@ -30,4 +30,5 @@ print(name)
 squared_num = [x ** 2 for x in range(10)]
 print(squared_num)#output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 cube_num = [x ** 3 for x in range(10)]
-print(cube_num)
+print(cube_num) #output: [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
