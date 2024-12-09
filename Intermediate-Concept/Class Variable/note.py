@@ -12,5 +12,21 @@ three = Car("toyota", "1010")
 print(Car.total_car) #output: 4
 #Note: it's used to check how many car objects is created.
 
+class Rectangle:
+    def __init__(self):
+        self.length = 12
+        self.breadth = 12
+    def input(self):
+        self.length = int(input("Enter your first Num:"))
+        self.breadth= int(input("Enter your second Num:"))
+    def output(self):
+        print(f"The value of rectangle: {self.length * self.breadth}")
+
+def main():
+    std = Rectangle()
+    std.output()
+    std.input()
+    std.output()
+main()
 
             
