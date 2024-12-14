@@ -22,7 +22,7 @@ if(age):
         print("Ticket price is $",price)'''
 
 #Question 3: Assign a letter grade based on a students score: A(90-100), B(80-90), c(70-90), d(60-69), f(below 60)
-grade = int(input("Enter your date: "))
+# grade = int(input("Enter your date: "))
 '''if (grade>=90 and grade<100):
     print("You're grade is A")
 elif (grade>=80 and grade<90):
@@ -35,6 +35,18 @@ elif (grade<60):
     print("you are grade is not goood")
 else:
     print("Enter your accurate data")'''
+
+#match in python
+age = 12
+match age:
+    case 10:
+        print("you are smaller")
+    case 12:
+        print("you are equal")
+    case _:
+        print(" i am default")
+
+        
 
 
 
