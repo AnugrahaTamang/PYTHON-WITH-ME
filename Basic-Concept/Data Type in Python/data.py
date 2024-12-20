@@ -25,6 +25,10 @@ print(f"Difference of {frozen - another_frozen}") #output: Difference of frozens
 byte_data = bytes([66, 67, 68, 67])
 print(f"Byte value of {byte_data}") #output : Byte value of b'BCDC'
 
+#Askue value find method
+for byte in b"ABC":
+    print(byte)
+
 # Converting a string to bytes with encoding
 string_data = "Hello"
 byte_string = string_data.encode('utf-8')  # Encoding as UTF-8
