@@ -8,3 +8,4 @@ print(next(gen)) #1
 
 for j in gen:
     print(j) # 1 dekhi 199 samma print hunxa
+ 
