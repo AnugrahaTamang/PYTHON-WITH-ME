@@ -19,7 +19,7 @@ print(details("Anugraha", 22, "kathmandu")) #output: my name is Anugraha. I am 2
 def sum_all(*args):
     print(args)
     return sum(args)
-print(sum_all(1, 3)) #output: 8
+print(sum_all(1, 3)) #output: 4
 print(sum_all(1,2,3,4)) #output: 10
 print(sum_all(3,4,5,6)) #output: 18
 
