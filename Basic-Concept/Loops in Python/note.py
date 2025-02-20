@@ -54,7 +54,7 @@ print("factorial : ", factorial)'''
         print("Try again")'''
 
 #Question 8: check if a number is prime or not.
-'''number = int(input("Enter your number: "))
+number = int(input("Enter your number: "))
 is_prime = True
 if number > 1:
     for num in range(2, number):
@@ -62,7 +62,7 @@ if number > 1:
             is_prime = False
             break
 
-print(is_prime)'''
+print(is_prime)
 
 #Question 9: check if all elements in a list are unique. if a duplicate is found, exit the loop and print the duplicate.
 '''items = ["apple", "banana", "apple", "orange", "banana"]
